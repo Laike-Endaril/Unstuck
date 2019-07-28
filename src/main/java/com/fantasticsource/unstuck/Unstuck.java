@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod(modid = Unstuck.MODID, name = Unstuck.NAME, version = Unstuck.VERSION)
+@Mod(modid = Unstuck.MODID, name = Unstuck.NAME, version = Unstuck.VERSION, acceptableRemoteVersions = "*")
 public class Unstuck
 {
     public static final String MODID = "unstuck";

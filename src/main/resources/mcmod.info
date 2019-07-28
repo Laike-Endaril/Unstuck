@@ -1,0 +1,16 @@
+[
+{
+  "modid": "unstuck",
+  "name": "Unstuck",
+  "description": "Don't be a stick; get yourself Unstuck!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Laike_Endaril"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

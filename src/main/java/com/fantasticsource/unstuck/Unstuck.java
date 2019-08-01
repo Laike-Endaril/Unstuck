@@ -31,6 +31,8 @@ public class Unstuck
     @Mod.EventHandler
     public static void serverStarting(FMLServerStartingEvent event)
     {
-        event.registerServerCommand(new Commands());
+        event.registerServerCommand(new Commands("unstuck"));
+        event.registerServerCommand(new Commands("stuck"));
+        event.registerServerCommand(new Commands("unstick"));
     }
 }

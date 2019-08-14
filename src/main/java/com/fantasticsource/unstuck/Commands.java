@@ -36,6 +36,12 @@ public class Commands extends CommandBase
     }
 
     @Override
+    public boolean checkPermission(MinecraftServer server, ICommandSender sender)
+    {
+        return true;
+    }
+
+    @Override
     public String getUsage(ICommandSender sender)
     {
         return AQUA + "/" + name + WHITE + " - Helps get you unstuck...hopefully";
